@@ -1,0 +1,15 @@
+C:\Users\meshmi\source\repos\FunnyAgeCalculator\bin\Debug\FunnyAgeCalculator.exe.config
+C:\Users\meshmi\source\repos\FunnyAgeCalculator\bin\Debug\FunnyAgeCalculator.exe
+C:\Users\meshmi\source\repos\FunnyAgeCalculator\bin\Debug\FunnyAgeCalculator.pdb
+C:\Users\meshmi\source\repos\FunnyAgeCalculator\obj\Debug\FunnyAgeCalculator.csprojAssemblyReference.cache
+C:\Users\meshmi\source\repos\FunnyAgeCalculator\obj\Debug\FunnyAgeCalculator.csproj.CoreCompileInputs.cache
+C:\Users\meshmi\source\repos\FunnyAgeCalculator\obj\Debug\FunnyAgeCalculator.exe
+C:\Users\meshmi\source\repos\FunnyAgeCalculator\obj\Debug\FunnyAgeCalculator.pdb
+C:\Users\meshmi\source\repos\FunnyAgeCalculator\bin\Debug\nunit.framework.dll
+C:\Users\meshmi\source\repos\FunnyAgeCalculator\bin\Debug\nunit.framework.pdb
+C:\Users\meshmi\source\repos\FunnyAgeCalculator\bin\Debug\nunit.framework.xml
+C:\Users\meshmi\source\repos\FunnyAgeCalculator\obj\Debug\FunnyAgeCalculator.csproj.CopyComplete
+C:\Users\meshmi\source\repos\FunnyAgeCalculator\bin\Debug\FunnyAgeCalculator.exe.manifest
+C:\Users\meshmi\source\repos\FunnyAgeCalculator\bin\Debug\FunnyAgeCalculator.application
+C:\Users\meshmi\source\repos\FunnyAgeCalculator\obj\Debug\FunnyAgeCalculator.exe.manifest
+C:\Users\meshmi\source\repos\FunnyAgeCalculator\obj\Debug\FunnyAgeCalculator.application

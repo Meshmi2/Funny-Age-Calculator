@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="FunnyAgeCalculator.exe" version="1.0.0.1" publicKeyToken="138eddabc94910b0" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="FunnyAgeCalculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="FunnyAgeCalculator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opzioni manifesto Controllo dell'account utente
+          Se si vuole modificare il livello di Controllo dell'account utente di Windows, sostituire il
+          nodo requestedExecutionLevel con uno dei seguenti.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se si vuole usare Virtualizzazione file system e registro di sistema per la 
+         compatibilità con le versioni precedenti, eliminare il nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FunnyAgeCalculator.exe" size="6632">
+      <assemblyIdentity name="FunnyAgeCalculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0JQec3gRWCdPW6L+gW6pSTpYXKqTwGcMYlL8E5lB7M0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="nunit.framework.dll" size="394240">
+      <assemblyIdentity name="nunit.framework" version="3.12.0.0" publicKeyToken="2638CD05610744EB" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hpVhthozeIwa1Br8pH24+qxaPkqXRiGUMWJahpPfook=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="FunnyAgeCalculator.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-E82U5F2\meshmi" issuerKeyHash="2fb1856adeb8fc2ca6f7b1abdbd29dbdcc986bda" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>RCS7llLKgCbAVrDWjjYBtD5l1e2MOVZSngyj7Bz7uf8=</DigestValue></Reference></SignedInfo><SignatureValue>lFaOo2RwgKCM9nvYU+jhFgSrvNEiqMNjPtaE7JRxU9gMS183qN4ZZ0ndQY78hd+AT4QlJQJysFBRU52tovotYykA2owtwCDkVqtZAzhE5Gyb8t2B7Fc9rl9elQigMKgEYVrzvpLeygzGD0Qu4Gq6PFQfqL2Bc9TR+DX84kbdbMk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zu6Bl5P0ASDog2DRYa0E/yS0i7g5Ir+szDfY4P4BEiM3k34UV70R6CGcDB4d2pWGS6SR1OGKuOMhPjPl96tcfH522NdQI7gef2mXZMYvccrbpXhT3rzjzU4pKVcQZqn+liuQtuaCMYhoiQOySKXARQGzaQZ0rdROOuiPIwU8GGk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="ffb9fb1ceca30c9e5256398cedd5653eb401368ed6b056c02680ca5296bb2444" Description="" Url=""><as:assemblyIdentity name="FunnyAgeCalculator.exe" version="1.0.0.1" publicKeyToken="138eddabc94910b0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-E82U5F2\meshmi</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4Sf3Et82uVxe/A3woxuYgA0TtrpKkiXO/AjHKiLDV8Q=</DigestValue></Reference></SignedInfo><SignatureValue>nChJ/rf+a6OBVo0PTwbihSL6QTjCnkyiD6KFoa5tNdMVI+SXwwJYmIcA0PjkDzMaxrxcc8+GZVvtM9ZxLFgjdC/9hKy+T1lGnvU2xmhWaNrjsfUUsh0vFuax3aVYlMAcyfhNiIPiO/rNaxw0WjvPQkcmJ6G3NqaWO57pc1AQl2Y=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zu6Bl5P0ASDog2DRYa0E/yS0i7g5Ir+szDfY4P4BEiM3k34UV70R6CGcDB4d2pWGS6SR1OGKuOMhPjPl96tcfH522NdQI7gef2mXZMYvccrbpXhT3rzjzU4pKVcQZqn+liuQtuaCMYhoiQOySKXARQGzaQZ0rdROOuiPIwU8GGk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQSQacGZvk8IlNtvJwzci6NjANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAEUAOAAyAFUANQBGADIAXABtAGUAcwBoAG0AaTAeFw0yMDA3MDkwNjE0NTlaFw0yMTA3MDkxMjE0NTlaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0ARQA4ADIAVQA1AEYAMgBcAG0AZQBzAGgAbQBpMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDO7oGXk/QBIOiDYNFhrQT/JLSLuDkiv6zMN9jg/gESIzeTfhRXvRHoIZwMHh3alYZLpJHU4Yq44yE+M+X3q1x8fnbY11AjuB5/aZdkxi9xytuleFPevOPNTikpVxBmqf6WK5C25oIxiGiJA7JIpcBFAbNpBnSt1E466I8jBTwYaQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACAyk5pWGam/2zmkA9Hphe0rkIwzSCMPK7vfqMmzGJk/w0VU8Ofc0P44uC5NMbqPd+tMfwZj3AKf3X0C3ki0+2rDx3hoaJaAiQO4z8NQrJmLXuaoG9MXaEj24moXu6LVjdGn6bp8ooaAVXvUA2mOZLYytZlW7rWxhV/jQfjhXf+1</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
